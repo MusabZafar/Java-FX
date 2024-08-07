@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="183.0" prefWidth="277.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.windowmanagement.FirstWindowController">
+   <children>
+      <Button fx:id="btn1" layoutX="44.0" layoutY="50.0" mnemonicParsing="false" onAction="#openNewWindow" text="new Window" />
+      <Button fx:id="btnCHange" layoutX="44.0" layoutY="117.0" mnemonicParsing="false" onAction="#changeWindow" text="Change it" />
+   </children>
+</AnchorPane>

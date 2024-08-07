@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="125.0" prefWidth="241.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.windowmanagement.NewWindowController">
+   <children>
+      <Button fx:id="btnClose" layoutX="94.0" layoutY="74.0" mnemonicParsing="false" onAction="#closeWindow" text="Close" />
+      <Label layoutX="75.0" layoutY="14.0" text="New Window" />
+   </children>
+</AnchorPane>
